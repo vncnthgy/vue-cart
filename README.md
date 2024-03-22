@@ -40,13 +40,19 @@ Build an interactive shopping cart application using Vue.js. The application sho
 
 # Project Setup
 
-### Clone the project in your desired project folder
+### Clone the project in desired project folder
 
 ```sh
 git clone https://github.com/vncnthgy/vue-cart.git
 ```
 
-### Run the project using
+### Install the project dependencies
+
+```sh
+npm install
+```
+
+### Go to the project folder and run
 
 ```sh
 npm run dev
