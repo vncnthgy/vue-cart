@@ -1,5 +1,16 @@
 # **Interactive Shopping Cart in Vue.js**
 
+## Table of Contents
+
+
+- [Objectives](#objectives)
+- [Scenario](#scenario)
+- [Technical Requirements](#technical-requirements)
+- [Interactivity](#interactivity)
+- [Assessment](#assessment)
+- [Project Setup](#project-setup)
+- [Screenshots](#screenshots)
+
 ## **Objectives:**
 
 -   Demonstrate understanding of Vue data binding, interpolation, methods, and computed properties.
@@ -16,7 +27,7 @@ Build an interactive shopping cart application using Vue.js. The application sho
 -   Remove items from the cart.
 -   See the total price of all items in the cart.
 
-## **Technical requirements:**
+## **Technical Requirements:**
 
 -   Use Vue.js for component-based development.
 -   Implement data binding to dynamically update product listings, cart contents, and totals.
@@ -38,7 +49,7 @@ Build an interactive shopping cart application using Vue.js. The application sho
 -   Review the code for clarity, readability, and adherence to Vue best practices.
 
 
-# Project Setup
+## Project Setup
 
 ### Clone the project in desired project folder
 
@@ -58,7 +69,7 @@ npm install
 npm run dev
 ```
 
-# Screenshots
+## Screenshots
 
 ![Image 1](images/image1.png)
 
