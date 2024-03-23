@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h1>Shopping Cart</h1>
         <div v-for="(item, index) in cart" :key="index">
             <cart-item :item="item" @update="updateQuantity(index, $event)" @remove="removeFromCart(index)"></cart-item>
         </div>

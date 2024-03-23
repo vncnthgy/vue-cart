@@ -130,6 +130,17 @@ span {
   justify-content: space-between;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column img {
+  border-radius: 10px;
+}
+
 .left, .right {
   flex: 1;
 }

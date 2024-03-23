@@ -1,5 +1,6 @@
 <template>
     <div class="login">
+        <h1>User Account</h1>
         <form @submit.prevent="handleLogin" class="login-form">
             <label for="username">Username:</label>
             <input id="username" v-model="username" type="text" required>

@@ -1,7 +1,8 @@
 <template>
     <div class="product">
-        <div class="left"><product @add-to-cart="addToCart"></product></div>
-        <div class="right"><cart :cart="cart" @update-quantity="updateQuantity" @remove-from-cart="removeFromCart"></cart></div>
+      <h1>Product List</h1>
+      <div class="left"><product @add-to-cart="addToCart"></product></div>
+      <div class="right"><cart :cart="cart" @update-quantity="updateQuantity" @remove-from-cart="removeFromCart"></cart></div>
     </div>
 </template>
 
